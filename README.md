@@ -1,36 +1,31 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# ProjectSetup
 
-> Description the project.
+> This mileStone is for seting up the leaderboard web-ap, with Webpack and using Gitflow .
 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- Html-Css-Js
+- No Frameworks
+- Webpack
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://livedemo.com)
+[No live deMo available yet]
 
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
 To get a local copy up and running follow these simple example steps.
+- run  "git clone https://github.com/ChaabaneAnas/Leaderboard.git"
+- cd to the repo folder
 
 ### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
+- VS code
+- git bash
+- npm&Nodejs
 
 ### Run tests
 
@@ -40,13 +35,7 @@ To get a local copy up and running follow these simple example steps.
 
 ## Authors
 
-👤 **Author1**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
+👤 **chaabaneAnas**
 
 - GitHub: [@githubhandle](https://github.com/githubhandle)
 - Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
