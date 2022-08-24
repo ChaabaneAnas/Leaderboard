@@ -1,0 +1,53 @@
+.column {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.rmDec {
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 12% 80%;
+}
+
+h1 {
+  grid-column: span 2;
+  padding-left: 11%;
+}
+
+li:nth-child(odd) { 
+  padding: 0 10px;
+  background: #ffffff;
+ }
+
+li:nth-child(even) { 
+  padding: 0 10px;
+  background: #80808030;
+ }
+
+.refresh {
+  display: flex;
+  gap: 10px;
+}
+
+.board {
+  margin-top:0;
+  min-width: 60%;
+  padding: 0;
+  border: 2px solid black;
+}
+
+.refreshBtn {
+  align-self: center;
+}
+
+form.column {
+  align-items: flex-start;
+  gap: 10px;
+}
