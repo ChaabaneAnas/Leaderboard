@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wbpack Exercise</title>
+<script defer src="runtime.bundle.js"></script><script defer src="index.bundle.js"></script></head>
+<body>
+    <h1>Leaderboard</h1>
+
+    <section class="displayB column">
+        <div class="refresh">
+            <h3>recent scores</h3>
+            <button type="submit" class="refreshBtn">refresh</button>
+        </div>
+        
+       <ul class="board">
+        <li>Name: 100</li>
+        <li>Name: 20</li>
+        <li>Name: 70</li>
+        <li>Name: 60</li>
+        <li>Name: 40</li>
+        <li>Name: 50</li>
+        <li>Name: 30</li>
+       </ul>
+    </section>
+
+    <secction class="addB ">
+        <form class="column" action="submit">
+            
+                <h3>Add your score</h3>
+                <input type="text" name="name" id="name" required>
+                <input type="number" name="number" id="number" required>
+            
+            <button class="submit" type="submit">Submit</button>
+        </form>
+    </secction>
+</body>
