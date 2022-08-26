@@ -8,4 +8,4 @@ export const DsisplayScores = (scoresArr) => {
     scoreListItem.innerHTML = `${item.user}:      ${item.score}`;
     scoreList.appendChild(scoreListItem);
   });
-}
+};

@@ -1,7 +1,6 @@
 import './style.css';
 import APIhandel from './modules/APIhandler';
 import { DsisplayScores } from './modules/Ui';
-import { fromPairs } from 'lodash';
 
 document.addEventListener('DOMContentLoaded', async () => {
   const scoresArr = await APIhandel.getScores();
