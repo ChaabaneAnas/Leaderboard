@@ -9,16 +9,28 @@
   list-style: none;
 }
 
-body {
+html {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: grey;
   height: 100vh;
+  opacity: 1;
+}
+
+body {
+  z-index: 10;
+  background-color: white;
+  height: 50%;
+  width: 55%;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 12% 80%;
+  grid-template-rows: 19% 80%;
 }
 
 h1 {
   grid-column: span 2;
-  padding-left: 11%;
+  padding-left: 9%;
 }
 
 li:nth-child(odd) {
@@ -37,6 +49,7 @@ li:nth-child(even) {
 }
 
 .board {
+  overflow: scroll;
   margin-top: 0;
   min-width: 60%;
   padding: 0;
