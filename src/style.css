@@ -19,6 +19,8 @@ html {
 }
 
 body {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  border-radius: 10px;
   z-index: 10;
   background-color: #007FFF;
   color: white;
@@ -27,6 +29,7 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 19% 80%;
+  padding: 30px;
 }
 
 h1 {
@@ -45,6 +48,7 @@ li:nth-child(even) {
 }
 
 .refresh {
+  align-items: center;
   display: flex;
   gap: 10px;
 }
@@ -65,4 +69,28 @@ li:nth-child(even) {
 form.column {
   align-items: flex-start;
   gap: 10px;
+}
+
+.submit{
+  height: 29px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 6px 14px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Roboto', sans-serif;
+  border-radius: 6px;
+  border: none;
+
+  color: #fff;
+  background: linear-gradient(180deg, #4B91F7 0%, #367AF6 100%);
+   background-origin: border-box;
+  box-shadow: 0px 0.5px 1.5px rgba(54, 122, 246, 0.25), inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-10:focus {
+  box-shadow: inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2), 0px 0.5px 1.5px rgba(54, 122, 246, 0.25), 0px 0px 0px 3.5px rgba(58, 108, 217, 0.5);
+  outline: 0;
 }
