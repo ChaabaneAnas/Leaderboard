@@ -2,7 +2,7 @@
 export const DsisplayScores = (scoresArr) => {
   const scoreList = document.querySelector('.board');
   scoreList.innerHTML = '';
-  scoresArr.forEach((item) => {
+  scoresArr.sort((a, b) => b.score - a.score).forEach((item) => {
     const scoreListItem = document.createElement('li');
     scoreListItem.className = 'list-item';
     scoreListItem.innerHTML = `${item.user}:      ${item.score}`;
